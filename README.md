@@ -1,3 +1,3 @@
 # BluJoy
 
-A common joystick interface for [ESP32-BL
+A common joystick interface for [ESP32-BLE-Gamepad](https://github.com/

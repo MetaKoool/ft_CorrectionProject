@@ -1,1 +1,3 @@
-# BluJ
+# BluJoy
+
+A common joystick interf

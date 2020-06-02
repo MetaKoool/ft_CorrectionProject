@@ -6,4 +6,4 @@ Used in my [NeoGeo Mini Bluetooth Gamepad](https://github.com/kamicane/neogeo-mi
 
 ## Features
 
-- XBOX 360 
+- XBOX 360 layout based common joystic

@@ -9,4 +9,4 @@ Used in my [NeoGeo Mini Bluetooth Gamepad](https://github.com/kamicane/neogeo-mi
 - XBOX 360 layout based common joystick interface
 - Calibration helpers with eeprom save support
 - [Scaled radial deadzone](https://github.com/Minimuino/thumbstick-deadzones) algorithm for analog inputs
-- [Eight symmetric angular zones](https://gamingprojects.wordpress.com/2017/08/04/converting-analog-joystick-to-digital-joystick-signals/) for optional,
+- [Eight symmetric angular zones](https://gamingprojects.wordpress.com/2017/08/04/converting-analog-joystick-to-digital-joystick-signals/) for optional, accurate ADC

@@ -7,4 +7,6 @@
 
 class BluJoy {
   private:
-    const float SL
+    const float SLOPE = 0.414214;
+
+    uint16_t ble_a

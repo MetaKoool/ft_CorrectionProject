@@ -3,4 +3,6 @@
 
 #include <Arduino.h>
 #include <BleGamepad.h>
-#include <P
+#include <Preferences.h>
+
+class BluJoy {

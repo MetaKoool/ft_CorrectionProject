@@ -6,3 +6,5 @@
 #include <Preferences.h>
 
 class BluJoy {
+  private:
+    const float SL

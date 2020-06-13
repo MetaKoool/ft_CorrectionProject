@@ -10,4 +10,6 @@ class BluJoy {
     const float SLOPE = 0.414214;
 
     uint16_t ble_axis_min = 0;
-    uint16_t
+    uint16_t ble_axis_max = 4095;
+
+   

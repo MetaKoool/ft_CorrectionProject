@@ -12,4 +12,4 @@ class BluJoy {
     uint16_t ble_axis_min = 0;
     uint16_t ble_axis_max = 4095;
 
-   
+    BleGamepadConfiguratio

@@ -15,4 +15,5 @@ class BluJoy {
     BleGamepadConfiguration ble_gamepad_cfg;
     BleGamepad ble_gamepad;
 
-    st
+    std::string name;
+    std::string 

@@ -18,4 +18,4 @@ class BluJoy {
     std::string name;
     std::string manufacturer;
 
-    int16_t map_a
+    int16_t map_axis_range_ble(float stat

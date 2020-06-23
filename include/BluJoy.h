@@ -16,4 +16,6 @@ class BluJoy {
     BleGamepad ble_gamepad;
 
     std::string name;
-    std::string 
+    std::string manufacturer;
+
+    int16_t map_a

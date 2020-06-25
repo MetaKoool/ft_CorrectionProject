@@ -18,4 +18,6 @@ class BluJoy {
     std::string name;
     std::string manufacturer;
 
-    int16_t map_axis_range_ble(float stat
+    int16_t map_axis_range_ble(float state);
+
+    byte button_states[1

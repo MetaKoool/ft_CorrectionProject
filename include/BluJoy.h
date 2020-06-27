@@ -20,4 +20,5 @@ class BluJoy {
 
     int16_t map_axis_range_ble(float state);
 
-    byte button_states[11] = { HIGH, HIGH, HIGH, HIGH, HIGH, HIGH, HIGH, HIGH, HIGH, H
+    byte button_states[11] = { HIGH, HIGH, HIGH, HIGH, HIGH, HIGH, HIGH, HIGH, HIGH, HIGH, HIGH };
+    byt

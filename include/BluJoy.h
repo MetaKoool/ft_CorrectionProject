@@ -23,4 +23,4 @@ class BluJoy {
     byte button_states[11] = { HIGH, HIGH, HIGH, HIGH, HIGH, HIGH, HIGH, HIGH, HIGH, HIGH, HIGH };
     byte dpad_state = DPAD_CENTERED;
 
-   
+    const float axis_states_rais

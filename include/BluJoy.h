@@ -26,4 +26,6 @@ class BluJoy {
     const float axis_states_raised[6] = { 0.0, 0.0, 0.0, 0.0, -1.0, -1.0 };
 
     float axis_states[6] = { 0.0, 0.0, 0.0, 0.0, -1.0, -1.0 };
-    float axis_states_raw[6] = { 0.0, 0.0, 0.0, 0.0, 
+    float axis_states_raw[6] = { 0.0, 0.0, 0.0, 0.0, -1.0, -1.0 };
+
+    flo

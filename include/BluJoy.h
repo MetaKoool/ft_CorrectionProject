@@ -29,4 +29,5 @@ class BluJoy {
     float axis_states_raw[6] = { 0.0, 0.0, 0.0, 0.0, -1.0, -1.0 };
 
     float axis_min[6] = { -1.0, -1.0, -1.0, -1.0, -1.0, -1.0 };
-    float axis_mid[6] = { 0.0, 0.0, 0.0, 0.0, 0.0, 
+    float axis_mid[6] = { 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 };
+    float axis_max[6] = { 1.0, 1.

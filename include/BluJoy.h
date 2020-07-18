@@ -35,4 +35,4 @@ class BluJoy {
   public:
     Preferences preferences;
 
- 
+    static const byte BUTTO

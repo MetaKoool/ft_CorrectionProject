@@ -35,4 +35,5 @@ class BluJoy {
   public:
     Preferences preferences;
 
-    static const byte BUTTO
+    static const byte BUTTON_COUNT = 11;
+    static

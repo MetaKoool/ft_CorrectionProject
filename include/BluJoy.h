@@ -36,4 +36,6 @@ class BluJoy {
     Preferences preferences;
 
     static const byte BUTTON_COUNT = 11;
-    static
+    static const byte AXIS_COUNT = 6;
+
+ 

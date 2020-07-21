@@ -38,4 +38,5 @@ class BluJoy {
     static const byte BUTTON_COUNT = 11;
     static const byte AXIS_COUNT = 6;
 
-    static const byte BUT
+    static const byte BUTTON_A = 0;
+    static 

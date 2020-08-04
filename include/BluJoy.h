@@ -48,4 +48,5 @@ class BluJoy {
     static const byte BUTTON_LSB = 6;
     static const byte BUTTON_RSB = 7;
 
-    static const byte BUTTON_START = 
+    static const byte BUTTON_START = 8;
+    static const byte BUTTON

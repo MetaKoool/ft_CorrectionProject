@@ -54,4 +54,5 @@ class BluJoy {
 
     static const byte AXIS_LX = 0;
     static const byte AXIS_LY = 1;
-    
+    static const byte AXIS_RX = 2;
+   

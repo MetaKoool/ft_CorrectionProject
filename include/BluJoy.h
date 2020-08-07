@@ -53,4 +53,5 @@ class BluJoy {
     static const byte BUTTON_HOME = 10;
 
     static const byte AXIS_LX = 0;
+    static const byte AXIS_LY = 1;
     

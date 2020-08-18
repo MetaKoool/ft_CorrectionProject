@@ -61,4 +61,4 @@ class BluJoy {
 
     float deadzone = 0.2;
 
-   
+    const char * button_name

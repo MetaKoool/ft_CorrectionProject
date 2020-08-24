@@ -62,4 +62,4 @@ class BluJoy {
     float deadzone = 0.2;
 
     const char * button_names[11] = { "A", "B", "X", "Y", "LB", "RB", "LSB", "RSB", "START", "SELECT", "HOME" };
-    const 
+    const char * axis_names[6] = { "LX", "LY", "

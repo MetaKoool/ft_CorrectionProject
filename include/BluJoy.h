@@ -64,4 +64,4 @@ class BluJoy {
     const char * button_names[11] = { "A", "B", "X", "Y", "LB", "RB", "LSB", "RSB", "START", "SELECT", "HOME" };
     const char * axis_names[6] = { "LX", "LY", "RX", "RY", "LT", "RT" };
 
-    const char * axis_min_names[6] = { "lx-a
+    const char * axis_min_names[6] = { "lx-axis-min", "ly-axis-min", "rx-

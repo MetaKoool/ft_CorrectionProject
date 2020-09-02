@@ -65,4 +65,4 @@ class BluJoy {
     const char * axis_names[6] = { "LX", "LY", "RX", "RY", "LT", "RT" };
 
     const char * axis_min_names[6] = { "lx-axis-min", "ly-axis-min", "rx-axis-min", "ry-axis-min", "lt-axis-min", "lt-axis-min" };
-    const char * ax
+    const char * axis_mid_names[6] = { "lx-axis-m

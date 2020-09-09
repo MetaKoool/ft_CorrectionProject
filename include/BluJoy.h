@@ -66,4 +66,6 @@ class BluJoy {
 
     const char * axis_min_names[6] = { "lx-axis-min", "ly-axis-min", "rx-axis-min", "ry-axis-min", "lt-axis-min", "lt-axis-min" };
     const char * axis_mid_names[6] = { "lx-axis-mid", "ly-axis-mid", "rx-axis-mid", "ry-axis-mid", "lt-axis-mid", "lt-axis-mid" };
-    const char * axis_max_names[6] = { "lx-axis-max", "ly-axis-max", "rx-axis-max", "ry-axis-max", "rt-axis-max"
+    const char * axis_max_names[6] = { "lx-axis-max", "ly-axis-max", "rx-axis-max", "ry-axis-max", "rt-axis-max", "rt-axis-max" };
+
+    Bl

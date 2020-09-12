@@ -68,4 +68,6 @@ class BluJoy {
     const char * axis_mid_names[6] = { "lx-axis-mid", "ly-axis-mid", "rx-axis-mid", "ry-axis-mid", "lt-axis-mid", "lt-axis-mid" };
     const char * axis_max_names[6] = { "lx-axis-max", "ly-axis-max", "rx-axis-max", "ry-axis-max", "rt-axis-max", "rt-axis-max" };
 
-    BluJoy (std::string name, std::string manufacturer, float dea
+    BluJoy (std::string name, std::string manufacturer, float deadzone);
+
+    void connect ()

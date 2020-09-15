@@ -70,4 +70,7 @@ class BluJoy {
 
     BluJoy (std::string name, std::string manufacturer, float deadzone);
 
-    void connect ()
+    void connect ();
+
+    void prefs_init ();
+ 

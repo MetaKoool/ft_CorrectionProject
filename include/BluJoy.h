@@ -73,4 +73,4 @@ class BluJoy {
     void connect ();
 
     void prefs_init ();
- 
+    void read_calibration_d

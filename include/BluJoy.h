@@ -76,4 +76,4 @@ class BluJoy {
     void read_calibration_data ();
     void write_calibration_data ();
 
-    s
+    static float map_range (float va

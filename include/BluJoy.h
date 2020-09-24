@@ -78,4 +78,6 @@ class BluJoy {
 
     static float map_range (float value, float old_min, float old_max, float new_min, float new_max);
 
-    float dz_scale
+    float dz_scaled_radial (float input);
+
+    vo

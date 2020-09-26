@@ -81,4 +81,4 @@ class BluJoy {
     float dz_scaled_radial (float input);
 
     void configure_gamepad ();
-    v
+    void set_axis_state (byte axis, fl

@@ -82,4 +82,4 @@ class BluJoy {
 
     void configure_gamepad ();
     void set_axis_state (byte axis, float state);
-    float clean
+    float clean_axis_value (byte axis, float st

@@ -85,4 +85,4 @@ class BluJoy {
     float clean_axis_value (byte axis, float state);
 
     void set_button_state (byte btn, byte state);
-    void set_dpad_state(byte dpad_up, byte dpad_r
+    void set_dpad_state(byte dpad_up, byte dpad_right, byte dpad_down, byte dpad_

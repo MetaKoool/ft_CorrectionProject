@@ -89,4 +89,5 @@ class BluJoy {
     void set_dpad_analog_state(byte axis_x, byte axis_y, float value_x, float value_y);
 
     byte get_button_state(byte btn);
-    float get_axis_state(byt
+    float get_axis_state(byte axis);
+    float get_axis_s

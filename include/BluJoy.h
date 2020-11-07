@@ -91,4 +91,6 @@ class BluJoy {
     byte get_button_state(byte btn);
     float get_axis_state(byte axis);
     float get_axis_state_raw(byte axis);
-    byt
+    byte get_dpad_state();
+
+    v

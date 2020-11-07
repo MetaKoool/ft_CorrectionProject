@@ -93,4 +93,4 @@ class BluJoy {
     float get_axis_state_raw(byte axis);
     byte get_dpad_state();
 
-    v
+    void set_axis_min (byte axis, floa

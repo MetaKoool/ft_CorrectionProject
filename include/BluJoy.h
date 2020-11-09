@@ -95,4 +95,5 @@ class BluJoy {
 
     void set_axis_min (byte axis, float min);
     void set_axis_mid (byte axis, float mid);
-    void set
+    void set_axis_max (byte axis, float max);
+

@@ -103,4 +103,6 @@ class BluJoy {
 
     bool is_any_pressed ();
 
-    void rais
+    void raise_inputs ();
+    void report ();
+   

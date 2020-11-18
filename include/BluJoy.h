@@ -105,4 +105,4 @@ class BluJoy {
 
     void raise_inputs ();
     void report ();
-   
+    bool is_connect

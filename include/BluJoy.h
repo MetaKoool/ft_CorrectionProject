@@ -101,4 +101,6 @@ class BluJoy {
     float get_axis_mid (byte axis);
     float get_axis_max (byte axis);
 
-    bool is_any_presse
+    bool is_any_pressed ();
+
+    void rais

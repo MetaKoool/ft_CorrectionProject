@@ -1,4 +1,5 @@
 {
   "name": "BluJoy",
   "version": "1.0.1",
-  "description": "A common joystick interface for ESP32-BLE-Game
+  "description": "A common joystick interface for ESP32-BLE-Gamepad",
+  "keywords": ["bl

@@ -2,4 +2,5 @@
   "name": "BluJoy",
   "version": "1.0.1",
   "description": "A common joystick interface for ESP32-BLE-Gamepad",
-  "keywords": ["bluetooth", "gamepad", "joyst
+  "keywords": ["bluetooth", "gamepad", "joystick", "esp32"],
+  "reposi

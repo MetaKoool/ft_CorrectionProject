@@ -5,4 +5,5 @@
   "keywords": ["bluetooth", "gamepad", "joystick", "esp32"],
   "repository":
   {
-    "type": "
+    "type": "git",
+    "url": "https:

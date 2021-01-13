@@ -17,4 +17,6 @@
     }
   ],
   "license": "MIT",
-  "homepage": "https://github.com/kamic
+  "homepage": "https://github.com/kamicane/BluJoy",
+  "dependencies": {
+  

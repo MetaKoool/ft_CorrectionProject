@@ -19,4 +19,4 @@
   "license": "MIT",
   "homepage": "https://github.com/kamicane/BluJoy",
   "dependencies": {
-  
+    "lemmingdev/ESP32-BLE-Gamepad"

@@ -21,4 +21,5 @@
   "dependencies": {
     "lemmingdev/ESP32-BLE-Gamepad": "^0.5.2"
   },
-  "frameworks"
+  "frameworks": "arduino",
+  "platfor

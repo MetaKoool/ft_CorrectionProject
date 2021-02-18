@@ -2,4 +2,4 @@
 
 #include "BluJoy.h"
 
-BluJoy::Bl
+BluJoy::BluJoy(std::string na

@@ -2,4 +2,5 @@
 
 #include "BluJoy.h"
 
-BluJoy::BluJoy(std::string name, std::string man
+BluJoy::BluJoy(std::string name, std::string manufacturer, float deadzone)
+: 

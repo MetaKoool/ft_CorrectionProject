@@ -6,4 +6,5 @@ BluJoy::BluJoy(std::string name, std::string manufacturer, float deadzone)
 : ble_gamepad(name, manufacturer, 100) {
 
   this->name = name;
-  this->manufactur
+  this->manufacturer = name;
+  this->deadzone = dead

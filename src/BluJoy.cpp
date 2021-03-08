@@ -7,4 +7,7 @@ BluJoy::BluJoy(std::string name, std::string manufacturer, float deadzone)
 
   this->name = name;
   this->manufacturer = name;
-  this->deadzone = dead
+  this->deadzone = deadzone;
+};
+
+void BluJoy::conn

@@ -10,4 +10,5 @@ BluJoy::BluJoy(std::string name, std::string manufacturer, float deadzone)
   this->deadzone = deadzone;
 };
 
-void BluJoy::conn
+void BluJoy::connect () {
+  configure_gamep

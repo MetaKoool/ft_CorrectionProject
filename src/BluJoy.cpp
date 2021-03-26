@@ -11,4 +11,5 @@ BluJoy::BluJoy(std::string name, std::string manufacturer, float deadzone)
 };
 
 void BluJoy::connect () {
-  configure_gamep
+  configure_gamepad();
+  ble_gamepad.begin

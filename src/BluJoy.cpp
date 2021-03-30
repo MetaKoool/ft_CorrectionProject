@@ -16,4 +16,7 @@ void BluJoy::connect () {
 }
 
 void BluJoy::prefs_init () {
-  preferences.begi
+  preferences.begin("blujoy", false);
+}
+
+voi

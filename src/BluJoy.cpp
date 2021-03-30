@@ -15,4 +15,5 @@ void BluJoy::connect () {
   ble_gamepad.begin(&ble_gamepad_cfg);
 }
 
-void BluJoy::prefs_init ()
+void BluJoy::prefs_init () {
+  preferences.begi

@@ -19,4 +19,4 @@ void BluJoy::prefs_init () {
   preferences.begin("blujoy", false);
 }
 
-voi
+void BluJoy::read_calibration_data () 

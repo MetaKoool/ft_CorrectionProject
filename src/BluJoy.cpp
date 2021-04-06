@@ -19,4 +19,5 @@ void BluJoy::prefs_init () {
   preferences.begin("blujoy", false);
 }
 
-void BluJoy::read_calibration_data () 
+void BluJoy::read_calibration_data () {
+  for (byte axis = 0; axis < 

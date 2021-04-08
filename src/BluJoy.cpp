@@ -20,4 +20,5 @@ void BluJoy::prefs_init () {
 }
 
 void BluJoy::read_calibration_data () {
-  for (byte axis = 0; axis < 
+  for (byte axis = 0; axis < AXIS_COUNT; axis++) {
+    a

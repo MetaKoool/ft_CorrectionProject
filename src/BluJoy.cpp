@@ -22,4 +22,5 @@ void BluJoy::prefs_init () {
 void BluJoy::read_calibration_data () {
   for (byte axis = 0; axis < AXIS_COUNT; axis++) {
     axis_min[axis] = preferences.getFloat(axis_min_names[axis], -1.0);
-    axis_mid[axis] = preferences.getFloat(axis_mid_names
+    axis_mid[axis] = preferences.getFloat(axis_mid_names[axis], 0.0);
+    axis_max[a

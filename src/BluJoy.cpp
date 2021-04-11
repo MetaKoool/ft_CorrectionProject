@@ -27,4 +27,4 @@ void BluJoy::read_calibration_data () {
   }
 }
 
-void BluJoy::
+void BluJoy::write_calibration_data (

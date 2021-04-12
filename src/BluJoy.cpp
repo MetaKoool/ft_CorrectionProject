@@ -28,4 +28,5 @@ void BluJoy::read_calibration_data () {
 }
 
 void BluJoy::write_calibration_data () {
-  for (byte axis = 0; axis < BluJoy::AXIS_COUN
+  for (byte axis = 0; axis < BluJoy::AXIS_COUNT; axis++) {
+    preferences.put

@@ -31,4 +31,8 @@ void BluJoy::write_calibration_data () {
   for (byte axis = 0; axis < BluJoy::AXIS_COUNT; axis++) {
     preferences.putFloat(axis_min_names[axis], axis_min[axis]);
     preferences.putFloat(axis_mid_names[axis], axis_mid[axis]);
-    preferences.putFloat(axis_max_names[axis], axis_max[ax
+    preferences.putFloat(axis_max_names[axis], axis_max[axis]);
+  }
+}
+
+// https://git

@@ -35,4 +35,6 @@ void BluJoy::write_calibration_data () {
   }
 }
 
-// https://github.com/Minimuino/thumbsti
+// https://github.com/Minimuino/thumbstick-deadzones
+
+float BluJ

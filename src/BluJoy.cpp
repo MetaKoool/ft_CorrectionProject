@@ -37,4 +37,4 @@ void BluJoy::write_calibration_data () {
 
 // https://github.com/Minimuino/thumbstick-deadzones
 
-float BluJoy::map_range (float value, float ol
+float BluJoy::map_range (float value, float old_min, float old_max, f

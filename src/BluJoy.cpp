@@ -35,4 +35,4 @@ void BluJoy::write_calibration_data () {
   }
 }
 
-// https://git
+// https://github.com/Minimuino/thumbsti

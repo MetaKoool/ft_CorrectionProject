@@ -41,4 +41,4 @@ float BluJoy::map_range (float value, float old_min, float old_max, float new_mi
   if (value < old_min) value = old_min;
   if (value > old_max) value = old_max;
 
-  retur
+  return (new_min + (new_max 

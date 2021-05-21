@@ -39,4 +39,6 @@ void BluJoy::write_calibration_data () {
 
 float BluJoy::map_range (float value, float old_min, float old_max, float new_min, float new_max) {
   if (value < old_min) value = old_min;
-  if (value > o
+  if (value > old_max) value = old_max;
+
+  retur

@@ -44,4 +44,6 @@ float BluJoy::map_range (float value, float old_min, float old_max, float new_mi
   return (new_min + (new_max - new_min) * (value - old_min) / (old_max - old_min));
 }
 
-// https://github.com/Minimuino/thumbstick-d
+// https://github.com/Minimuino/thumbstick-deadzones
+
+float BluJoy::dz_s

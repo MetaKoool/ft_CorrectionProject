@@ -46,4 +46,4 @@ float BluJoy::map_range (float value, float old_min, float old_max, float new_mi
 
 // https://github.com/Minimuino/thumbstick-deadzones
 
-float BluJoy::dz_s
+float BluJoy::dz_scaled_radial (float

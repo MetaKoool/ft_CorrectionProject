@@ -48,4 +48,5 @@ float BluJoy::map_range (float value, float old_min, float old_max, float new_mi
 
 float BluJoy::dz_scaled_radial (float input) {
   const float input_abs = abs(input);
-  if (input_abs < deadzon
+  if (input_abs < deadzone) {
+    return 0.0;

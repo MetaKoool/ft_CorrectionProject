@@ -50,3 +50,6 @@ float BluJoy::dz_scaled_radial (float input) {
   const float input_abs = abs(input);
   if (input_abs < deadzone) {
     return 0.0;
+  }
+
+  const float sign 

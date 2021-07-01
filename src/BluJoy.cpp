@@ -54,4 +54,4 @@ float BluJoy::dz_scaled_radial (float input) {
 
   const float sign = input / input_abs;
 
-  re
+  return sign * map_range(input_abs

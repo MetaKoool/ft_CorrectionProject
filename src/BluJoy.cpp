@@ -57,4 +57,5 @@ float BluJoy::dz_scaled_radial (float input) {
   return sign * map_range(input_abs, deadzone, 1.0, 0.0, 1.0);
 }
 
-void BluJoy::configur
+void BluJoy::configure_gamepad () {
+  ble_gamepad_cfg.setA

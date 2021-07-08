@@ -58,4 +58,5 @@ float BluJoy::dz_scaled_radial (float input) {
 }
 
 void BluJoy::configure_gamepad () {
-  ble_gamepad_cfg.setA
+  ble_gamepad_cfg.setAutoReport(false);
+  ble_gamepa

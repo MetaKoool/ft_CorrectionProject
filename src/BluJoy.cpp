@@ -61,4 +61,6 @@ void BluJoy::configure_gamepad () {
   ble_gamepad_cfg.setAutoReport(false);
   ble_gamepad_cfg.setControllerType(CONTROLLER_TYPE_GAMEPAD);
 
-  ble_gamepad_cfg.se
+  ble_gamepad_cfg.setHatSwitchCount(1);
+
+  ble_g

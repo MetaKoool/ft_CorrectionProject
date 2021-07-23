@@ -65,4 +65,4 @@ void BluJoy::configure_gamepad () {
 
   ble_gamepad_cfg.setIncludeStart(true);
   ble_gamepad_cfg.setIncludeSelect(true);
-  ble_g
+  ble_gamepad_cfg.setIncludeHome

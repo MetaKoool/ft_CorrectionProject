@@ -64,4 +64,5 @@ void BluJoy::configure_gamepad () {
   ble_gamepad_cfg.setHatSwitchCount(1);
 
   ble_gamepad_cfg.setIncludeStart(true);
-  ble_gamepad_cfg.setInclu
+  ble_gamepad_cfg.setIncludeSelect(true);
+  ble_g

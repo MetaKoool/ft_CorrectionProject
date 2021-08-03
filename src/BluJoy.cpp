@@ -69,4 +69,4 @@ void BluJoy::configure_gamepad () {
 
   ble_gamepad_cfg.setButtonCount(BUTTON_COUNT);
 
-  ble_gamepad_cfg.setWh
+  ble_gamepad_cfg.setWhichAxes(false, false, fal

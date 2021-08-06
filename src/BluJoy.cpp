@@ -77,4 +77,4 @@ void BluJoy::configure_gamepad () {
   ble_gamepad_cfg.setIncludeRzAxis(true);
 
   ble_gamepad_cfg.setIncludeRxAxis(true);
-  ble_gamepa
+  ble_gamepad_cfg.setIncludeRyAxis(t

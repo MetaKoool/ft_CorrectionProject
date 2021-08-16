@@ -80,4 +80,4 @@ void BluJoy::configure_gamepad () {
   ble_gamepad_cfg.setIncludeRyAxis(true);
 
   ble_gamepad_cfg.setAxesMin(ble_axis_min); // 0 --> int16_t - 16 bit signed integer - Can be in decimal or hexadecimal
-  ble_gamepad_cfg.setAxesMax(ble_axis_max); // 32767 --> int16_t - 16 bi
+  ble_gamepad_cfg.setAxesMax(ble_axis_max); // 32767 --> int16_t - 16 bit signed integer - Can be i

@@ -83,4 +83,4 @@ void BluJoy::configure_gamepad () {
   ble_gamepad_cfg.setAxesMax(ble_axis_max); // 32767 --> int16_t - 16 bit signed integer - Can be in decimal or hexadecimal
 }
 
-int16_t BluJoy::map_axis_ra
+int16_t BluJoy::map_axis_range_ble (float state) {

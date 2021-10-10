@@ -84,4 +84,7 @@ void BluJoy::configure_gamepad () {
 }
 
 int16_t BluJoy::map_axis_range_ble (float state) {
-  return map_range(state, -1.0, 1.0, ble_axis_min
+  return map_range(state, -1.0, 1.0, ble_axis_min, ble_axis_max);
+}
+
+float 

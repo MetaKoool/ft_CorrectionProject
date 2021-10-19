@@ -88,3 +88,4 @@ int16_t BluJoy::map_axis_range_ble (float state) {
 }
 
 float BluJoy::clean_axis_value (byte axis, float state) {
+  axis_states_raw[axis] 

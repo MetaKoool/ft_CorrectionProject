@@ -90,4 +90,6 @@ int16_t BluJoy::map_axis_range_ble (float state) {
 float BluJoy::clean_axis_value (byte axis, float state) {
   axis_states_raw[axis] = state;
 
-  float state_calibra
+  float state_calibrated = 0.0;
+
+  if (state > 

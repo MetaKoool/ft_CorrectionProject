@@ -92,4 +92,5 @@ float BluJoy::clean_axis_value (byte axis, float state) {
 
   float state_calibrated = 0.0;
 
-  if (state > 
+  if (state > axis_mid[axis]) {
+    state_cali

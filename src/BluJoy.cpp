@@ -95,4 +95,5 @@ float BluJoy::clean_axis_value (byte axis, float state) {
   if (state > axis_mid[axis]) {
     state_calibrated = map_range(state, axis_mid[axis], axis_max[axis], 0.0, 1.0);
   } else if (state < axis_mid[axis]) {
-    state_calibrated = map_range(state, axis_min[axis], axis
+    state_calibrated = map_range(state, axis_min[axis], axis_mid[axis], -1.0, 0.0);
+  }

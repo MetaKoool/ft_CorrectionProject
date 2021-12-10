@@ -101,4 +101,5 @@ float BluJoy::clean_axis_value (byte axis, float state) {
   return dz_scaled_radial(state_calibrated);
 }
 
-void BluJoy::set_axis_state (byte
+void BluJoy::set_axis_state (byte axis, float state) {
+  axis_s

@@ -102,4 +102,4 @@ float BluJoy::clean_axis_value (byte axis, float state) {
 }
 
 void BluJoy::set_axis_state (byte axis, float state) {
-  axis_s
+  axis_states[axis] = clean_axi

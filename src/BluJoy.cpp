@@ -106,4 +106,7 @@ void BluJoy::set_axis_state (byte axis, float state) {
 }
 
 float BluJoy::get_axis_state (byte axis) {
-  return axis_stat
+  return axis_states[axis];
+}
+
+float BluJoy::g

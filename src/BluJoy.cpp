@@ -109,4 +109,5 @@ float BluJoy::get_axis_state (byte axis) {
   return axis_states[axis];
 }
 
-float BluJoy::g
+float BluJoy::get_axis_min (byte axis) {
+  

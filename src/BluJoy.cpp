@@ -114,3 +114,4 @@ float BluJoy::get_axis_min (byte axis) {
 }
 
 float BluJoy::get_axis_mid (byte axis) {
+  return axis_mid[axis]

@@ -118,4 +118,7 @@ float BluJoy::get_axis_mid (byte axis) {
 }
 
 float BluJoy::get_axis_max (byte axis) {
-  retur
+  return axis_max[axis];
+}
+
+float

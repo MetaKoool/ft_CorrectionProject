@@ -121,4 +121,5 @@ float BluJoy::get_axis_max (byte axis) {
   return axis_max[axis];
 }
 
-float BluJoy::get_axis_state_raw (b
+float BluJoy::get_axis_state_raw (byte axis) {
+  return axis_states_ra

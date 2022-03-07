@@ -125,4 +125,5 @@ float BluJoy::get_axis_state_raw (byte axis) {
   return axis_states_raw[axis];
 }
 
-byte BluJoy::get_dp
+byte BluJoy::get_dpad_state () {
+  return dpad_state;

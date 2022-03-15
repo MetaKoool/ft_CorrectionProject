@@ -130,4 +130,7 @@ byte BluJoy::get_dpad_state () {
 }
 
 void BluJoy::set_axis_min (byte axis, float min) {
-  axis_m
+  axis_min[axis] = min;
+}
+
+void Blu

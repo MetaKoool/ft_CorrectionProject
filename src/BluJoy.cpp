@@ -133,4 +133,4 @@ void BluJoy::set_axis_min (byte axis, float min) {
   axis_min[axis] = min;
 }
 
-void Blu
+void BluJoy::set_axis_mid (byte axis, float mid

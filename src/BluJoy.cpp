@@ -141,4 +141,5 @@ void BluJoy::set_axis_max (byte axis, float max) {
   axis_max[axis] = max;
 }
 
-void BluJoy::r
+void BluJoy::raise_inputs () {
+  for (byte

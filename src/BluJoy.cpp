@@ -138,4 +138,7 @@ void BluJoy::set_axis_mid (byte axis, float mid) {
 }
 
 void BluJoy::set_axis_max (byte axis, float max) {
-  axis
+  axis_max[axis] = max;
+}
+
+void BluJoy::r

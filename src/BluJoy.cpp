@@ -142,4 +142,5 @@ void BluJoy::set_axis_max (byte axis, float max) {
 }
 
 void BluJoy::raise_inputs () {
-  for (byte btn = 0; btn < BUTTO
+  for (byte btn = 0; btn < BUTTON_COUNT; btn++) {
+    button_

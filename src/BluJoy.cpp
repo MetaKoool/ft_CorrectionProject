@@ -145,3 +145,4 @@ void BluJoy::raise_inputs () {
   for (byte btn = 0; btn < BUTTON_COUNT; btn++) {
     button_states[btn] = HIGH;
   }
+  for (byte axis = 0; axis < AXIS_CO

@@ -146,4 +146,6 @@ void BluJoy::raise_inputs () {
     button_states[btn] = HIGH;
   }
   for (byte axis = 0; axis < AXIS_COUNT; axis++) {
-    axis_states[axis] = axis
+    axis_states[axis] = axis_states_raised[axis];
+  }
+  d

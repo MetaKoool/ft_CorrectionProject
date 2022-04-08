@@ -148,4 +148,7 @@ void BluJoy::raise_inputs () {
   for (byte axis = 0; axis < AXIS_COUNT; axis++) {
     axis_states[axis] = axis_states_raised[axis];
   }
-  dpad_state = DPAD_CENTERED
+  dpad_state = DPAD_CENTERED;
+}
+
+void BluJoy::set_button_stat

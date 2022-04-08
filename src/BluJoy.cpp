@@ -152,4 +152,7 @@ void BluJoy::raise_inputs () {
 }
 
 void BluJoy::set_button_state (byte btn, byte state) {
-  butt
+  button_states[btn] = state;
+}
+
+by

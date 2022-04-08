@@ -151,4 +151,5 @@ void BluJoy::raise_inputs () {
   dpad_state = DPAD_CENTERED;
 }
 
-void BluJoy::set_button_stat
+void BluJoy::set_button_state (byte btn, byte state) {
+  butt

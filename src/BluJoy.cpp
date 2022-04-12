@@ -156,4 +156,7 @@ void BluJoy::set_button_state (byte btn, byte state) {
 }
 
 byte BluJoy::get_button_state (byte btn) {
-  
+  return button_states[btn];
+}
+
+void Blu

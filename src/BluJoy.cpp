@@ -159,4 +159,5 @@ byte BluJoy::get_button_state (byte btn) {
   return button_states[btn];
 }
 
-void BluJoy::set_dpad_state (byte dpad_up, byte dpad_right, byte dpad_down, byte dpad_left
+void BluJoy::set_dpad_state (byte dpad_up, byte dpad_right, byte dpad_down, byte dpad_left) {
+  dpad_state = DPAD_CE

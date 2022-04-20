@@ -162,4 +162,5 @@ byte BluJoy::get_button_state (byte btn) {
 void BluJoy::set_dpad_state (byte dpad_up, byte dpad_right, byte dpad_down, byte dpad_left) {
   dpad_state = DPAD_CENTERED;
 
-  if (dpad_up ==
+  if (dpad_up == LOW) {
+    if (dpad_rig

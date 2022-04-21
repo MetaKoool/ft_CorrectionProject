@@ -163,4 +163,5 @@ void BluJoy::set_dpad_state (byte dpad_up, byte dpad_right, byte dpad_down, byte
   dpad_state = DPAD_CENTERED;
 
   if (dpad_up == LOW) {
-    if (dpad_rig
+    if (dpad_right == LOW) {
+      dpad_stat

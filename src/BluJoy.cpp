@@ -181,4 +181,8 @@ void BluJoy::set_dpad_state (byte dpad_up, byte dpad_right, byte dpad_down, byte
   } else if (dpad_left == LOW) {
     dpad_state = DPAD_LEFT;
   } else if (dpad_right == LOW) {
-    dpad_state = DPAD
+    dpad_state = DPAD_RIGHT;
+  }
+}
+
+// https:

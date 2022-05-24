@@ -185,4 +185,6 @@ void BluJoy::set_dpad_state (byte dpad_up, byte dpad_right, byte dpad_down, byte
   }
 }
 
-// https://gamingprojects.wordpress.com/2017/08/04/converting-analog-joystick-t
+// https://gamingprojects.wordpress.com/2017/08/04/converting-analog-joystick-to-digital-joystick-signals/
+
+voi

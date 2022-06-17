@@ -189,4 +189,5 @@ void BluJoy::set_dpad_state (byte dpad_up, byte dpad_right, byte dpad_down, byte
 
 void BluJoy::set_dpad_analog_state (byte axis_x, byte axis_y, float value_x, float value_y) {
   byte dpad_up = HIGH;
-  byte dpa
+  byte dpad_down = HIGH;
+  byte d

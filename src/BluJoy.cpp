@@ -196,4 +196,6 @@ void BluJoy::set_dpad_analog_state (byte axis_x, byte axis_y, float value_x, flo
   // squared deadzone?
 
   const float x = clean_axis_value(axis_x, value_x);
-  const float y = clean_axis_value(axis_
+  const float y = clean_axis_value(axis_y, value_y);
+
+  const floa

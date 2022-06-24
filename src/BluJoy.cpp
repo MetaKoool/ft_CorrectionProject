@@ -202,4 +202,5 @@ void BluJoy::set_dpad_analog_state (byte axis_x, byte axis_y, float value_x, flo
   const float slope_x = SLOPE * x;
 
   if (x > 0.0) {
-    if (x > slope_y) 
+    if (x > slope_y) dpad_right = LOW;
+  } else if 

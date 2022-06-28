@@ -209,4 +209,4 @@ void BluJoy::set_dpad_analog_state (byte axis_x, byte axis_y, float value_x, flo
 
   if (y > 0.0) {
     if (y > slope_x) dpad_down = LOW;
-  } 
+  } else if (y < 0.0) {

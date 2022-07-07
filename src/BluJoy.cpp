@@ -213,4 +213,7 @@ void BluJoy::set_dpad_analog_state (byte axis_x, byte axis_y, float value_x, flo
     if (y < slope_x) dpad_up = LOW;
   }
 
-  set_dpad_state(dpad_up, dpad_ri
+  set_dpad_state(dpad_up, dpad_right, dpad_down, dpad_left);
+}
+
+b

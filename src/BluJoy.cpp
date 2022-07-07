@@ -217,4 +217,4 @@ void BluJoy::set_dpad_analog_state (byte axis_x, byte axis_y, float value_x, flo
 }
 
 bool BluJoy::is_connected () {
-  
+  return ble_gamepad.isCo

@@ -221,4 +221,6 @@ bool BluJoy::is_connected () {
 }
 
 void BluJoy::report () {
-  if (!is_connect
+  if (!is_connected()) return;
+
+  for (byt

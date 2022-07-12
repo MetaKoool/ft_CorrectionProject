@@ -223,4 +223,6 @@ bool BluJoy::is_connected () {
 void BluJoy::report () {
   if (!is_connected()) return;
 
-  for (byte btn = 0; btn < BUTTON_COUN
+  for (byte btn = 0; btn < BUTTON_COUNT; btn++) {
+    byte ble_button;
+    

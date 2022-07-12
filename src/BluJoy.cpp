@@ -220,4 +220,5 @@ bool BluJoy::is_connected () {
   return ble_gamepad.isConnected();
 }
 
-void BluJoy:
+void BluJoy::report () {
+  if (!is_connect

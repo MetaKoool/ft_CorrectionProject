@@ -227,4 +227,5 @@ void BluJoy::report () {
     byte ble_button;
     bool is_special = false;
 
-    switch (bt
+    switch (btn) {
+      case BUTTON_START:

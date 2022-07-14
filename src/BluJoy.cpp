@@ -225,4 +225,4 @@ void BluJoy::report () {
 
   for (byte btn = 0; btn < BUTTON_COUNT; btn++) {
     byte ble_button;
-    
+    bool is_special = f

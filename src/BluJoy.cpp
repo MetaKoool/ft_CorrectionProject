@@ -231,4 +231,5 @@ void BluJoy::report () {
       case BUTTON_START:
         ble_button = START_BUTTON;
         is_special = true;
-        b
+        break;
+      case BUTTON_S

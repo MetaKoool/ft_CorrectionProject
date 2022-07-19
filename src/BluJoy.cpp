@@ -229,4 +229,5 @@ void BluJoy::report () {
 
     switch (btn) {
       case BUTTON_START:
-        ble_button = 
+        ble_button = START_BUTTON;
+        is_spec

@@ -235,4 +235,5 @@ void BluJoy::report () {
       case BUTTON_SELECT:
         ble_button = SELECT_BUTTON;
         is_special = true;
-      
+        break;
+      case BUTTO

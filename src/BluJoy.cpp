@@ -240,4 +240,5 @@ void BluJoy::report () {
         ble_button = HOME_BUTTON;
         is_special = true;
         break;
- 
+      case BUTTON_A:
+        

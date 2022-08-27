@@ -251,4 +251,6 @@ void BluJoy::report () {
         break;
       case BUTTON_Y:
         ble_button = BUTTON_4;
-        bre
+        break;
+
+      case BUTTON_

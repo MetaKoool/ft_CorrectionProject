@@ -267,4 +267,4 @@ void BluJoy::report () {
         break;
     }
 
-  
+    if (button_states[btn] == L

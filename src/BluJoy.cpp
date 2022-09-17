@@ -268,4 +268,4 @@ void BluJoy::report () {
     }
 
     if (button_states[btn] == LOW) {
-      if (is_special)
+      if (is_special) ble_gamepad.pressSpecialB

@@ -271,4 +271,4 @@ void BluJoy::report () {
       if (is_special) ble_gamepad.pressSpecialButton(ble_button);
       else ble_gamepad.press(ble_button);
     } else {
-      if (is_speci
+      if (is_special) ble_gamepad.releaseSpecialButton(

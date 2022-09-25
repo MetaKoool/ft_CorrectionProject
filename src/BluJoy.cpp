@@ -273,4 +273,7 @@ void BluJoy::report () {
     } else {
       if (is_special) ble_gamepad.releaseSpecialButton(ble_button);
       else ble_gamepad.release(ble_button);
-    
+    }
+  }
+
+  ble_gamepad.setHat(dpad_sta

@@ -276,4 +276,6 @@ void BluJoy::report () {
     }
   }
 
-  ble_gamepad.setHat(dpad_sta
+  ble_gamepad.setHat(dpad_state);
+
+  ble_gamepad.setLeftThu

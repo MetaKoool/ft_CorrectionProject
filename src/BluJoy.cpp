@@ -279,4 +279,5 @@ void BluJoy::report () {
   ble_gamepad.setHat(dpad_state);
 
   ble_gamepad.setLeftThumb(map_axis_range_ble(axis_states[AXIS_LX]), map_axis_range_ble(axis_states[AXIS_LY]));
-  ble_gamepad.setRightThumb(map_axis_range_ble(axis_states[AXIS_RX]), map_axis_range_ble(ax
+  ble_gamepad.setRightThumb(map_axis_range_ble(axis_states[AXIS_RX]), map_axis_range_ble(axis_states[AXIS_RY]));
+  ble_ga

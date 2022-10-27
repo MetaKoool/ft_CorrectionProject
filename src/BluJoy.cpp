@@ -283,4 +283,7 @@ void BluJoy::report () {
   ble_gamepad.setLeftTrigger(map_axis_range_ble(axis_states[AXIS_LT]));
   ble_gamepad.setRightTrigger (map_axis_range_ble(axis_states[AXIS_RT]));
 
-  ble_gamepad.se
+  ble_gamepad.sendReport();
+}
+
+bool BluJoy:

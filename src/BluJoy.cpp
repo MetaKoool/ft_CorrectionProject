@@ -286,4 +286,5 @@ void BluJoy::report () {
   ble_gamepad.sendReport();
 }
 
-bool BluJoy:
+bool BluJoy::is_any_pressed () {
+  fo

@@ -287,4 +287,4 @@ void BluJoy::report () {
 }
 
 bool BluJoy::is_any_pressed () {
-  fo
+  for (byte btn = 0; btn < BUTT

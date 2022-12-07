@@ -288,4 +288,7 @@ void BluJoy::report () {
 
 bool BluJoy::is_any_pressed () {
   for (byte btn = 0; btn < BUTTON_COUNT; btn++) {
-    if (button_states[btn] == LOW) return 
+    if (button_states[btn] == LOW) return true;
+  }
+
+  // these 

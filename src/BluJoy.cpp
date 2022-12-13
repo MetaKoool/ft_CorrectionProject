@@ -291,4 +291,5 @@ bool BluJoy::is_any_pressed () {
     if (button_states[btn] == LOW) return true;
   }
 
-  // these are at 0.0 in the resting posit
+  // these are at 0.0 in the resting position
+  byte mid_axes[4] = {

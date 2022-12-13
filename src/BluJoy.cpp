@@ -291,4 +291,4 @@ bool BluJoy::is_any_pressed () {
     if (button_states[btn] == LOW) return true;
   }
 
-  // these 
+  // these are at 0.0 in the resting posit

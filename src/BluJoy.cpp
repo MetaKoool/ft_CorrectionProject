@@ -292,4 +292,5 @@ bool BluJoy::is_any_pressed () {
   }
 
   // these are at 0.0 in the resting position
-  byte mid_axes[4] = { AXIS_LX, AXIS_LY, AXIS_RX,
+  byte mid_axes[4] = { AXIS_LX, AXIS_LY, AXIS_RX, AXIS_RY };
+  // these

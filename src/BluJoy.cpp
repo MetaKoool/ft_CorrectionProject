@@ -296,4 +296,5 @@ bool BluJoy::is_any_pressed () {
   // these are at -1.0 in the resting position
   byte min_axes[2] = { AXIS_LT, AXIS_RT };
 
-  
+  byte i;
+  for (i = 0; i < 4; i+

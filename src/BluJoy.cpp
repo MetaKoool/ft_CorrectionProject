@@ -300,4 +300,5 @@ bool BluJoy::is_any_pressed () {
   for (i = 0; i < 4; i++) {
     if (axis_states[mid_axes[i]] > 0.5 || axis_states[mid_axes[i]] < -0.5) return true;
   }
-  for (i = 0; i < 
+  for (i = 0; i < 2; i++) {
+    if (axis_states
